@@ -1,4 +1,5 @@
+new_hash = []
 def count_elements(array)
-  # code goes here
+  array.each do [|x, y| new_hash << x]
 end
  
